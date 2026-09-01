@@ -3,9 +3,9 @@ import './App.css'
 const navItems = ['About', 'Experience', 'Certifications', 'Portfolio', 'Contact']
 
 const statItems = [
-  { label: 'Years of IT leadership', value: '18+' },
-  { label: 'Cloud migrations delivered', value: '1000+ VMs' },
-  { label: 'Applications assessed', value: '500+' },
+  { label: 'Years of technology leadership', value: 'Over 2 decades' },
+  { label: 'Cloud migrations delivered', value: 'Thousands of workloads' },
+  { label: 'Application assessments completed', value: 'Hundreds of applications' },
   { label: 'Enterprise sectors served', value: 'Energy • Banking • Legal' },
 ]
 
@@ -14,7 +14,7 @@ const expertise = [
   'Cloud Migration Strategy',
   'Enterprise Hybrid Integration',
   'Zero Trust & IAM',
-  'Disaster Recovery',
+  'HADR & Business Continuity',
   'Multi-Cloud Advisory',
   'DevSecOps Enablement',
   'AI & Automation',
@@ -27,7 +27,7 @@ const timeline = [
     period: 'February 2022 — Present',
     location: 'United States',
     summary:
-      'Leading cloud modernization programs for Fortune 500 organizations, including assessment of 500+ applications and migration planning for Azure-first transformations.',
+      'Leading cloud modernization programs for enterprise organizations, including large-scale application assessments and cloud migration planning across complex transformation initiatives.',
   },
   {
     company: 'LTI - Larsen & Toubro Infotech',
@@ -142,12 +142,12 @@ function App() {
             <div className="panel-glow" />
             <div className="panel-card">
               <p className="panel-label">Current focus</p>
-              <h2>Azure-first modernization, hybrid platform design, and delivery acceleration.</h2>
+              <h2>Cloud-first modernization, hybrid platform design, and HADR-driven delivery.</h2>
               <ul>
                 <li>Cloud adoption strategy and roadmap</li>
                 <li>Migration execution and workload rationalization</li>
                 <li>Zero trust identity and secure access design</li>
-                <li>Business continuity and resiliency engineering</li>
+                <li>High availability, disaster recovery, and business continuity</li>
               </ul>
             </div>
           </div>
